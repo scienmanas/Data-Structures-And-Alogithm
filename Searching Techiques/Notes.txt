@@ -1,2 +1,5 @@
 1. Linear Seach Time complexeity is O(n)
 2. Binary search can be applied on monotopic function only.
+
+Binary Search -> Time complexeity: O(logN)
+
