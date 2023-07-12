@@ -1,2 +1,10 @@
 1. Linear Seach Time complexeity is O(n)
 2. Binary search can be applied on monotopic function only.
+
+Binary Search -> Time complexeity: O(logN)
+
+To find total occurrence of a number in a sorted array by using binary search:
+1. Find the first occurrence of the number
+2. Find the last occurrence of the number
+3. Total occurrence = last - first + 1
+
