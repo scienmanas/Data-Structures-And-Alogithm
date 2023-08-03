@@ -8,3 +8,6 @@ To find total occurrence of a number in a sorted array by using binary search:
 2. Find the last occurrence of the number
 3. Total occurrence = last - first + 1
 
+Points to Remember:
+1. Binary search can be applied on monotonic function only.
+2. Try to think about apllicable range to solve the problem.
