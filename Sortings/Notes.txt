@@ -1,0 +1,16 @@
+1. Use temp varibale for swapping as arithmatic operation may cause outflow of  numbers
+2. Space Complexity for Selection Sort is O(1) as it does not require any extra space
+3. Time Complexity for Selection Sort is O(n^2) as it has two nested loops -> n(n-1)/2
+4. Small Size -> Selection Sort adopted
+5. Selection Sort is not stable as it does not preserve the order of elements with same value
+6. Bubble Sort is stable as it preserves the order of elements with same value
+7. Time Complexity for Bubble Sort is O(n^2) as it has two nested loops -> n(n-1)/2
+
+
+8. Insertion Sort is stable as it preserves the order of elements with same value
+9. Time Complexity for Insertion Sort is O(n^2) as it has two nested loops -> n(n-1)/2
+Best Case Time Complexity for Insertion Sort is O(n) as it has one loop
+Worst Case Time Complexity for Insertion Sort is O(n^2) as it has two nested loops -> n(n-1)/2
+
+10. Insertion Sort is adaptive as it takes less time for sorted array
+11. Space Complexity for Insertion Sort is O(1) as it does not require any extra space
