@@ -23,7 +23,13 @@ string s(str.begin(), str.begin() + 3);
 string s(str, 2);
 string s(str.begin(), str.end());
 
-5. String class functions.
+5. Using stringstream
+stringstream ss;
+ss << "23,4,56";
+string s = ss.str();
+
+
+6. String class functions.
 s.length();
 s.size();
 s.capacity();
