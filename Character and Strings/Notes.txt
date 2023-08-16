@@ -1,0 +1,54 @@
+1. C Style Strings-> These strings are stored as the plain old array of characters terminated by null characters '\0'.
+e.g. - char str[] = "Hello World";
+
+2. C++ Strings-> These strings are stored as the objects of the class string.
+e.g. - string str = "Hello World";
+string str("Hello World");
+
+char s[] = {'g', 'f', 'g', '\0'};
+char s[4] = {'g', 'f', 'g', '\0'};
+char s[4] = "gfg";
+char s[] = "gfg";
+
+
+3. String s;
+getline(cin, s);
+
+This is used to take input of a string which has spaces in it.
+
+4. Using the string class constructor.
+string s(5, 'n');
+string s(str, 2, 4);
+string s(str.begin(), str.begin() + 3);
+string s(str, 2);
+string s(str.begin(), str.end());
+
+5. String class functions.
+s.length();
+s.size();
+s.capacity();
+s.resize();
+s.clear();
+s.empty();
+s.shrink_to_fit();
+s.reserve();
+s.push_back();
+s.pop_back();
+s.insert();
+s.erase();
+s.replace();
+s.swap();
+s.c_str();
+s.substr();
+s.find();
+s.rfind();
+s.compare();
+s.copy();
+s.at();
+s.begin();
+s.end();
+s.rbegin();
+s.rend();
+s.front();
+s.back();
+s.assign();
