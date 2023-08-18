@@ -5,9 +5,11 @@
 using namespace std;
 
 string removeOccurrences(string s, string part) {
-    
+
 }
 
 int main() {
-
+    string s = "daabcbaabcbc";
+    string part = "dab";
+    t
 }

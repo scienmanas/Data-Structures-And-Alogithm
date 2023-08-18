@@ -14,3 +14,4 @@ Worst Case Time Complexity for Insertion Sort is O(n^2) as it has two nested loo
 
 10. Insertion Sort is adaptive as it takes less time for sorted array
 11. Space Complexity for Insertion Sort is O(1) as it does not require any extra space
+12. Time Complexity for Insertion Sort is O(n^2) as it has two nested loops -> n(n-1)/2
