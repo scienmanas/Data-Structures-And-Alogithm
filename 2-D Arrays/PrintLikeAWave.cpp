@@ -6,7 +6,7 @@ using namespace std;
 vector<int> wavePrint(vector<vector<int>> arr, int nRows, int mCols)
 {
     vector<int> ans_to_re;
-    int counter = 1;
+    // int counter = 1;
     for (int i = 0; i < mCols; i++)
     {
         if (i % 2 == 0)
