@@ -27,4 +27,15 @@ int main() {
 
     double *q = s_;
 
+    int i = 3;
+    int *t = &i;
+
+    cout<<*t<<endl;
+    cout<<"Before t: "<<t<<endl;
+
+    t = t + 1;
+    
+    cout<<"After t: "<<t<<endl;
+    cout<<"After t: "<<*t<<endl; // Absured garbage value
+    
 }
