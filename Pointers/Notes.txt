@@ -1,0 +1,3 @@
+1. Always pointer stores 8 bytes of data irrespective of data type who who's location it is storing
+
+2. Pointer stores the address of the variable
