@@ -8,7 +8,7 @@ using namespace std;
 
 vector<int> SegmentedSieve(int n) {
     long long sq = sqrt(n);
-
+    
 }
 
 int main() {

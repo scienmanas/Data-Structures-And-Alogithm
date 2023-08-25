@@ -1,1 +1,18 @@
 1. Sieve of Eratosthenes
+2. The Sieve of Eratosthenes is a classic algorithm for finding all prime numbers up to a given limit. It works by iteratively marking the multiples of each prime number starting from 2, effectively eliminating the non-prime numbers. The algorithm's simplicity and efficiency make it a popular choice for generating a list of primes.
+
+However, when dealing with larger ranges, the Sieve of Eratosthenes can become memory-intensive and inefficient.
+
+3. The segmensted sieve algorithm is an imporvement that allows you to find primes in a soecific range while using significantly less memory
+
+4. Simple Sieve time complexeity is O(n*log(log(n)))
+
+5. Euclid algorithm
+ gcd(a,b) = gcd(a-b,b)
+ 
+6. "Basic" arithmetic
+First off, some important identities about the modulo operator:
+
+(a mod m)+(b mod m)  mod m=a+b  mod m
+(a mod m)−(b mod m)  mod m=a−b  mod m
+(a mod m)⋅(b mod m)  mod m=a⋅b  mod m
