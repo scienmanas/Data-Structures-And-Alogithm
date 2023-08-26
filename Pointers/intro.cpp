@@ -38,4 +38,24 @@ int main() {
     cout<<"After t: "<<t<<endl;
     cout<<"After t: "<<*t<<endl; // Absured garbage value
     
+
+    int a[20] = {1,2,3,5};
+    cout<<"Printing Values: "<<&a[0];
+    cout<<endl;
+
+    int *p = &a[0];
+    cout<<"Printing values: "<<&p<<endl;
+
+    // Symbol table content cannot be changed
+
+    int arr[10];
+
+    // arr = arr + 1       fill give the error
+
+    int *pefe = &arr[0];
+    cout<<pefe<<endl;
+
+    pefe = pefe + 1;
+    cout<<pefe<<endl;
+
 }
