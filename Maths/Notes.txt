@@ -9,6 +9,8 @@ However, when dealing with larger ranges, the Sieve of Eratosthenes can become m
 
 5. Euclid algorithm
  gcd(a,b) = gcd(a-b,b)
+
+Time complexeity -> O(log(max(x,y)))
  
 6. "Basic" arithmetic
 First off, some important identities about the modulo operator:
@@ -16,3 +18,5 @@ First off, some important identities about the modulo operator:
 (a mod m)+(b mod m)  mod m=a+b  mod m
 (a mod m)−(b mod m)  mod m=a−b  mod m
 (a mod m)⋅(b mod m)  mod m=a⋅b  mod m
+
+7. Fast Exponentiation
