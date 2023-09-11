@@ -6,10 +6,10 @@ using namespace std;
 
 int maxElement(vector<int> nums, int index)
 {
-    int ind = 0;
+    int ind = index + 1;
     for (int i = index + 1; i < nums.size(); i++)
     {
-        if (nums[ind] < nums[i])
+        if (nums[ind] <= nums[i])
         {
             ind = i;
         }
@@ -27,6 +27,7 @@ void nextPermutation(vector<int> &nums)
         if (nums[i] > nums[i - 1])
         {
             index = i - 1;
+            // cout<<"Yaha pae lawde laga ha: "<<index<<endl;
             break;
         }
     }
@@ -49,12 +50,7 @@ void nextPermutation(vector<int> &nums)
         swap(nums[index], nums[min_element_index]);
         int left = index + 1;
         int right = nums.size() - 1;
-        while (left < right)
-        {
-            swap(nums[left], nums[right]);
-            left++;
-            right--;
-        }
+        sort(nums.begin()+index+1,nums.end());
     }
 }
 
@@ -80,6 +76,20 @@ int main()
     for (auto i : nums)
     {
         cout << i << " "; // [1,5,1]
+    }
+    cout << endl;
+    nums = {2, 2, 3, 4, 2, 3, 1, 1, 2};
+    nextPermutation(nums);
+    for (auto i : nums)
+    {
+        cout << i << " ";
+    }
+    cout << endl;
+    nums = {2, 3, 1, 3, 3};
+    nextPermutation(nums);
+    for (auto i : nums)
+    {
+        cout << i << " ";
     }
     cout << endl;
 }
