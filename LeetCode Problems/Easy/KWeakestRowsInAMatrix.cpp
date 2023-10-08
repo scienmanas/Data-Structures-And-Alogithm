@@ -1,11 +1,12 @@
 #include <iostream>
 #include <vector>
+#include <map>
 
 using namespace std;
 
 vector<int> kWeakestRows(vector<vector<int>> &mat, int k)
 {
-    vector<vector<int>> 
+    map<int,int> data
 }
 
 int main()
