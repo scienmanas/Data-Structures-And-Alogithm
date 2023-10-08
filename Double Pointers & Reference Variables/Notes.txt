@@ -1,0 +1,18 @@
+1. Stack & Heap Memory
+
+2. int a[n] -> allocated by stack Memory
+memory allocation happens durinf runntime if we use variable otherwise it happen during compiling time.
+when the programme runs it can crash if required memory in not in stack.
+
+3. stack - Static Memory allocation.
+
+4. Heap - Dynamic Memory allocation.
+e.g. new char
+char* ch = new char;
+-> pointer in stack and char in Heap
+-> Total size = 8+1 = 9
+
+5. pointer - 8 byte in 64-Bit system
+-> 4 byte in 32-Bit system
+
+6.
